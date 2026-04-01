@@ -1,0 +1,774 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portofolio profesional - CV online dengan Bootstrap 5"
+    />
+    <meta name="author" content="Nama Anda" />
+    <title>Portofolio | Ghinnia Nuraulia Zani</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Google Fonts: Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html"
+          >Ghinnia Nuraulia Zani</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Keahlian</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Pengalaman</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section id="home" class="hero-section">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-7" data-aos="fade-right" data-aos-duration="1000">
+            <span class="badge bg-primary mb-3 px-3 py-2">Halo, Saya</span>
+            <h1 class="display-3 fw-bold mb-3">
+              Ghinnia <span class="text-primary">Nuraulia Zani</span>
+            </h1>
+            <h2 class="h3 mb-4 text-secondary">
+              Web Developer & UI/UX Enthusiast
+            </h2>
+            <p class="lead mb-4">
+              Membangun solusi digital yang inovatif dengan pengalaman di
+              industri teknologi. Fokus pada pengembangan web modern dan
+              pengalaman pengguna yang optimal.
+            </p>
+            <div class="d-flex gap-3 flex-wrap">
+              <a href="#portfolio" class="btn btn-primary btn-lg"
+                >Lihat Portofolio</a
+              >
+              <a href="#contact" class="btn btn-outline-light btn-lg"
+                >Hubungi Saya</a
+              >
+            </div>
+            <div class="social-icons mt-5">
+              <a
+                href="https://www.linkedin.com/in/ghinnia-nuraulia-zani-191071225?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                class="me-3"
+                ><i class="bi bi-github fs-4"></i
+              ></a>
+              <a href="#" class="me-3"><i class="bi bi-linkedin fs-4"></i></a>
+              <a href="#" class="me-3"><i class="bi bi-instagram fs-4"></i></a>
+              <a href="#" class="me-3"><i class="bi bi-twitter-x fs-4"></i></a>
+            </div>
+          </div>
+          <div
+            class="col-lg-5 text-center"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <div class="profile-wrapper">
+              <img
+                src="assets/img/profile.jpg"
+                alt="Profile"
+                class="img-fluid rounded-circle profile-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-overlay"></div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-8 text-center" data-aos="fade-up">
+            <h2 class="section-title">
+              Tentang <span class="text-primary">Saya</span>
+            </h2>
+            <div class="divider mx-auto"></div>
+            <p class="lead mt-3">
+              Kenali lebih dalam tentang perjalanan profesional saya
+            </p>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-right">
+            <img
+              src="assets/img/profile.jpg"
+              alt="About Me"
+              class="img-fluid rounded-4 shadow-lg"
+            />
+          </div>
+          <div class="col-lg-7" data-aos="fade-left">
+            <h3 class="h3 mb-3">Saya Ghinnia Nuraulia Zani, Web Developer</h3>
+            <p class="mb-4">
+              Saya adalah seorang pengembang web yang berbasis di Bandung dengan
+              passion dalam menciptakan aplikasi web yang responsif, cepat, dan
+              user-friendly. Memulai karir sebagai front-end developer, saya
+              kini memiliki pengalaman end-to-end dalam pengembangan aplikasi
+              web modern.
+            </p>
+
+            <div class="row mb-4">
+              <div class="col-md-6">
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                    <strong>Nama:</strong> Ghinnia Nuraulia Zani
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                    <strong>Email:</strong> ghinnianuraulia@gmail.com
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                    <strong>Telepon:</strong> +62 88996975113
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                    <strong>Lokasi:</strong> Bandung, Indonesia
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                    <strong>Freelance:</strong> Tersedia
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn btn-primary"
+              >Hubungi Saya <i class="bi bi-arrow-right ms-2"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section id="skills" class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-8 text-center" data-aos="fade-up">
+            <h2 class="section-title">
+              Keahlian <span class="text-primary">Teknis</span>
+            </h2>
+            <div class="divider mx-auto"></div>
+            <p class="lead mt-3">Teknologi dan tools yang saya kuasai</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mb-4" data-aos="fade-right">
+            <div class="skill-card">
+              <h4 class="mb-4">
+                <i class="bi bi-code-slash text-primary me-2"></i> Frontend
+                Development
+              </h4>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span>HTML5 / CSS3</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span>JavaScript / ES6+</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span>PHP</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span>Bootstrap </span>
+                  <span>85%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4" data-aos="fade-left">
+            <div class="skill-card">
+              <h4 class="mb-4">
+                <i class="bi bi-server text-primary me-2"></i> Backend & Tools
+              </h4>
+              
+              <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span>Python / Django</span>
+                  <span>80%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span>MySQL / PostgreSQL</span>
+                  <span>88%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 88%"></div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span>Git & GitHub</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PORTFOLIO SECTION ========== -->
+    <section id="portfolio" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-8 text-center" data-aos="fade-up">
+            <h2 class="section-title">
+              Portofolio <span class="text-primary">Proyek</span>
+            </h2>
+            <div class="divider mx-auto"></div>
+            <p class="lead mt-3">Beberapa proyek yang telah saya kerjakan</p>
+          </div>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <div class="filter-buttons">
+              <button class="btn btn-filter active" data-filter="all">
+                Semua
+              </button>
+              <button class="btn btn-filter" data-filter="web">
+                Web Development
+              </button>
+              <button class="btn btn-filter" data-filter="app">
+                Mobile App
+              </button>
+              <button class="btn btn-filter" data-filter="design">
+                UI/UX Design
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="row g-4 portfolio-grid">
+
+  <!-- Face Recognition -->
+  <div class="col-lg-4 col-md-6 portfolio-item app" data-aos="fade-up">
+    <div class="portfolio-card">
+      <div class="portfolio-img">
+        <img src="assets/img/face-recognition.jpg" alt="Face Recognition" class="img-fluid" />
+        <div class="portfolio-overlay">
+          <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#projectModal1">
+            Lihat Detail
+          </a>
+        </div>
+      </div>
+      <div class="portfolio-info p-3">
+        <h5>Face Recognition</h5>
+        <span class="badge bg-primary">AI / Python</span>
+        <p class="mt-2 mb-0">Python, Computer Vision</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Flutter -->
+  <div class="col-lg-4 col-md-6 portfolio-item app" data-aos="fade-up" data-aos-delay="100">
+    <div class="portfolio-card">
+      <div class="portfolio-img">
+        <img src="assets/img/flutter-app.jpg" alt="Flutter App" class="img-fluid" />
+        <div class="portfolio-overlay">
+          <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#projectModal2">
+            Lihat Detail
+          </a>
+        </div>
+      </div>
+      <div class="portfolio-info p-3">
+        <h5>Mobile App UI</h5>
+        <span class="badge bg-primary">Mobile App</span>
+        <p class="mt-2 mb-0">Flutter, UI Design</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SPP -->
+  <div class="col-lg-4 col-md-6 portfolio-item web" data-aos="fade-up" data-aos-delay="200">
+    <div class="portfolio-card">
+      <div class="portfolio-img">
+        <img src="assets/img/spp.jpg" alt="SPP System" class="img-fluid" />
+        <div class="portfolio-overlay">
+          <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#projectModal3">
+            Lihat Detail
+          </a>
+        </div>
+      </div>
+      <div class="portfolio-info p-3">
+        <h5>Website Pembayaran SPP</h5>
+        <span class="badge bg-primary">Web Development</span>
+        <p class="mt-2 mb-0">Laravel, MySQL</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Laptop -->
+  <div class="col-lg-4 col-md-6 portfolio-item web" data-aos="fade-up">
+    <div class="portfolio-card">
+      <div class="portfolio-img">
+        <img src="assets/img/laptop.jpg" alt="Laptop Store" class="img-fluid" />
+        <div class="portfolio-overlay">
+          <a href="#" class="btn btn-light">Lihat Detail</a>
+        </div>
+      </div>
+      <div class="portfolio-info p-3">
+        <h5>Website Jual Beli Laptop</h5>
+        <span class="badge bg-primary">Web Development</span>
+        <p class="mt-2 mb-0">HTML, CSS, PHP</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Kos -->
+  <div class="col-lg-4 col-md-6 portfolio-item web" data-aos="fade-up">
+    <div class="portfolio-card">
+      <div class="portfolio-img">
+        <img src="assets/img/kos.jpg" alt="Kos Website" class="img-fluid" />
+        <div class="portfolio-overlay">
+          <a href="#" class="btn btn-light">Lihat Detail</a>
+        </div>
+      </div>
+      <div class="portfolio-info p-3">
+        <h5>Website Pencarian Kos</h5>
+        <span class="badge bg-primary">Web Development</span>
+        <p class="mt-2 mb-0">HTML, CSS, PHP</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Figma -->
+  <div class="col-lg-4 col-md-6 portfolio-item design" data-aos="fade-up">
+    <div class="portfolio-card">
+      <div class="portfolio-img">
+        <img src="assets/img/figma.jpg" alt="UI UX Design" class="img-fluid" />
+        <div class="portfolio-overlay">
+          <a href="#" class="btn btn-light">Lihat Detail</a>
+        </div>
+      </div>
+      <div class="portfolio-info p-3">
+        <h5>UI/UX Design</h5>
+        <span class="badge bg-primary">Design</span>
+        <p class="mt-2 mb-0">Figma, Prototype</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+   
+
+    <!-- ========== EDUCATION SECTION ========== -->
+    <section id="education" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-8 text-center" data-aos="fade-up">
+            <h2 class="section-title">
+              Pendidikan & <span class="text-primary">Sertifikasi</span>
+            </h2>
+            <div class="divider mx-auto"></div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="education-card" data-aos="fade-up">
+              <div class="row align-items-center">
+                <div class="col-md-3">
+                  <span class="badge bg-primary mb-2 mb-md-0">2023 - sekarang</span>
+                </div>
+                <div class="col-md-9">
+                  <h4>S1 Teknik Informatika</h4>
+                  <h5>Universitas Teknologi Digital</h5>
+                  <p>
+                    IPK: 3.84/4.00. Aktif dalam organisasi kemahasiswaan 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="education-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="row align-items-center">
+                <div class="col-md-3">
+                  <span class="badge bg-primary mb-2 mb-md-0">2026</span>
+                </div>
+                <div class="col-md-9">
+                  <h4>BNSP Certified Developer</h4>
+                  <h5>front-end Developer</h5>
+                  <p>
+                    Sertifikasi resmi Uji Kompetensi.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact" class="py-5 bg-dark text-white">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-8 text-center" data-aos="fade-up">
+            <h2 class="section-title text-white">
+              Hubungi <span class="text-primary">Saya</span>
+            </h2>
+            <div class="divider bg-primary mx-auto"></div>
+            <p class="lead mt-3">
+              Tertarik untuk bekerja sama? Silakan hubungi saya!
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-right">
+            <div class="contact-info">
+              <div class="d-flex mb-4">
+                <div class="contact-icon">
+                  <i class="bi bi-geo-alt fs-2 text-primary"></i>
+                </div>
+                <div class="ms-3">
+                  <h5>Lokasi</h5>
+                  <p class="mb-0">Bandung, Indonesia</p>
+                </div>
+              </div>
+
+              <div class="d-flex mb-4">
+                <div class="contact-icon">
+                  <i class="bi bi-envelope fs-2 text-primary"></i>
+                </div>
+                <div class="ms-3">
+                  <h5>Email</h5>
+                  <p class="mb-0">ghinnianuraulia@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="d-flex mb-4">
+                <div class="contact-icon">
+                  <i class="bi bi-telephone fs-2 text-primary"></i>
+                </div>
+                <div class="ms-3">
+                  <h5>Telepon</h5>
+                  <p class="mb-0">+62 8996975113</p>
+                </div>
+              </div>
+
+              <div class="d-flex">
+                <div class="contact-icon">
+                  <i class="bi bi-clock fs-2 text-primary"></i>
+                </div>
+                <div class="ms-3">
+                  <h5>Jam Kerja</h5>
+                  <p class="mb-0">Senin - Jumat, 09:00 - 17:00 WIB</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left">
+            <form id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Nama Lengkap"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Subjek"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    placeholder="Pesan"
+                    required
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary btn-lg w-100">
+                    Kirim Pesan <i class="bi bi-send ms-2"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="py-4 bg-black text-white-50 text-center">
+      <div class="container">
+        <p class="mb-0">
+          &copy; Ghinnia. All rights reserved. Built with
+          <i class="bi bi-heart-fill text-danger"></i> using Bootstrap 5
+        </p>
+      </div>
+    </footer>
+
+    <!-- ========== MODALS ========== -->
+
+<!-- Modal 1 - Face Recognition -->
+<div class="modal fade" id="projectModal1" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Face Recognition (Python)</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <!-- <img src="assets/img/face-recognition.jpg" class="img-fluid mb-3" /> -->
+        <h6>Deskripsi Proyek</h6>
+        <p>
+          Aplikasi pengenalan wajah berbasis Python yang mampu mendeteksi dan mengenali wajah menggunakan konsep computer vision.
+        </p>
+        <h6>Teknologi yang Digunakan</h6>
+        <ul>
+          <li>Python</li>
+          <li>OpenCV</li>
+          <li>Computer Vision</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 - Flutter -->
+<div class="modal fade" id="projectModal2" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Mobile App UI (Flutter)</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/flutter-app.jpg" class="img-fluid mb-3" />
+        <h6>Deskripsi Proyek</h6>
+        <p>
+          Pengembangan tampilan halaman beranda aplikasi mobile menggunakan Flutter dengan desain modern dan user-friendly.
+        </p>
+        <h6>Teknologi yang Digunakan</h6>
+        <ul>
+          <li>Flutter</li>
+          <li>Dart</li>
+          <li>UI Design</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 - SPP -->
+<div class="modal fade" id="projectModal3" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Website Pembayaran SPP</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/spp.jpg" class="img-fluid mb-3" />
+        <h6>Deskripsi Proyek</h6>
+        <p>
+          Sistem pembayaran SPP berbasis web dengan fitur pengelolaan data siswa, transaksi pembayaran, dan laporan.
+        </p>
+        <h6>Teknologi yang Digunakan</h6>
+        <ul>
+          <li>Laravel</li>
+          <li>PHP</li>
+          <li>MySQL</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4 - Laptop -->
+<div class="modal fade" id="projectModal4" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Website Jual Beli Laptop</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/laptop.jpg" class="img-fluid mb-3" />
+        <h6>Deskripsi Proyek</h6>
+        <p>
+          Website katalog laptop yang menampilkan daftar produk dan detail informasi untuk memudahkan pengguna.
+        </p>
+        <h6>Teknologi yang Digunakan</h6>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>PHP</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 5 - Kos -->
+<div class="modal fade" id="projectModal5" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Website Pencarian Kos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/kos.jpg" class="img-fluid mb-3" />
+        <h6>Deskripsi Proyek</h6>
+        <p>
+          Website pencarian kos yang menampilkan informasi lokasi, harga, dan fasilitas untuk membantu pengguna memilih tempat tinggal.
+        </p>
+        <h6>Teknologi yang Digunakan</h6>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>PHP</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 6 - Figma -->
+<div class="modal fade" id="projectModal6" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">UI/UX Design (Figma)</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/figma.jpg" class="img-fluid mb-3" />
+        <h6>Deskripsi Proyek</h6>
+        <p>
+          Mendesain tampilan aplikasi loker dan game edukasi anak menggunakan Figma dengan fokus pada user experience.
+        </p>
+        <h6>Tools yang Digunakan</h6>
+        <ul>
+          <li>Figma</li>
+          <li>Prototype</li>
+          <li>UI/UX Design</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
